@@ -31,8 +31,8 @@ public class WebcamLibrary {
         int index = 0;
         for (Webcam w : Webcam.getWebcams()) {
             CameraInfo info = new CameraInfo();
-            info.setWebCamIndex(index++);
-            info.setWebCamName(w.getName());
+            info.setIndex(index++);
+            info.setName(w.getName());
             
             infoList.add(info);
         }

@@ -10,24 +10,24 @@ package testwebcamcapture.model;
  * @author rizal
  */
 public class CameraInfo {
-    private String webCamName ;
-    private int webCamIndex ;
+    private String name ;
+    private int index;
 
-    public String getWebCamName() {
-            return webCamName;
+    public String getName() {
+            return name;
     }
-    public void setWebCamName(String webCamName) {
-            this.webCamName = webCamName;
+    public void setName(String webCamName) {
+            this.name = webCamName;
     }
-    public int getWebCamIndex() {
-            return webCamIndex;
+    public int getIndex() {
+            return index;
     }
-    public void setWebCamIndex(int webCamIndex) {
-            this.webCamIndex = webCamIndex;
+    public void setIndex(int webCamIndex) {
+            this.index = webCamIndex;
     }
 
     @Override
     public String toString() {
-            return webCamName;
+            return getName();
     }
 }

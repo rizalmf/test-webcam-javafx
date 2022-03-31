@@ -70,7 +70,7 @@ public class MainController implements Initializable {
             CameraInfo info = cbWebcam.getValue();
             if (info != null) {
                 // start if exist
-                webcamLibrary.start(imageProperty, info.getWebCamIndex());
+                webcamLibrary.start(imageProperty, info.getIndex());
             }
         });
         
